@@ -9,3 +9,6 @@ Repositório dedicado à cienciometria, com análises desenvolvidas em R utiliza
 As buscas podem ser baixadas em arquivos do tipo .csv e .txt. 
 
 Após isso, os resultados são analisados no R com o pacote **bibliometrix** 
+
+# Script em R 
+O Script em R está disponível em R: 
