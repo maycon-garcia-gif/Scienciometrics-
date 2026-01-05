@@ -1,0 +1,56 @@
+# # Cienciometria  
+
+#Instalando pacotes necessários
+install.packages("bibliometrix", dependencies = TRUE)
+#carregando pacotes
+library("bibliometrix")
+
+
+#abrir e converter bibliotecas 
+
+# -----------------------------------------------------------------------------------------------------------------------------------------
+# Nesse caso, foram importados dados de duas bases de dados diferentes, a SCOPUS e WEB of Science
+# abrir scopus em formato csv 
+scopus <- convert2df("C:/Users/mayco/OneDrive - FIOCRUZ/Área de Trabalho/Cienciometria/scopus_ilhv.csv", dbsource = "scopus", format = "csv")
+
+
+#Abrindo base de dados web of science 
+web <- convert2df("C:/Users/mayco/OneDrive - FIOCRUZ/Área de Trabalho/Cienciometria/webofscience_ilhv.txt", dbsource = "wos", format = "plaintext")
+
+#juntando as diferentes bases de dados e removendo as duplicatas 
+uniao <- mergeDbSources(scopus, web, remove.duplicated = TRUE) 
+
+
+# Salvando a tabela gerada no excel 
+# União, digita nome novo
+#separa por vírgula 
+# row names = remove as primeira colunas 
+write.table(uniao, "C:/Users/mayco/OneDrive/Área de Trabalho/Cienciometria/dados_ilhv.csv",sep = ";", row.names = FALSE)
+
+# Após salvar é necessário converter o arquivo no excel em formato "xlsx" 
+# formato padrão do word 
+
+# analisando os resultados 
+# Gera os primeiros resultados
+ Results <- biblioAnalysis(uniao)
+
+#resumindo os principais dados RD 
+# esse codigo resume os principais resultados da variavel _ RESULTS 
+# K = 20, vai sempre selecionar os top 20, 20 palavras principais
+ # 20 artigos mais citados e etc 
+ 
+RD <- summary(object = Results, k = 20)
+
+# plotar gráfico com os principais resultados 
+
+plot(Results, k = 20)
+
+
+# abre site biblioshiny pelo navegador
+biblioshiny()
+
+## Após abrir o bilbioshiny, usar a tabela criada no R e analisar os dados gerados 
+
+
+
+
