@@ -11,4 +11,4 @@ As buscas podem ser baixadas em arquivos do tipo .csv e .txt.
 Após isso, os resultados são analisados no R com o pacote **bibliometrix** 
 
 # Script em R 
-O Script em R está disponível em R: 
+O Script em R está disponível em R: https://github.com/maycon-garcia-gif/Scienciometrics-/blob/main/R%20script 
