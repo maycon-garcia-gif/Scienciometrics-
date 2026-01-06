@@ -12,3 +12,8 @@ Após isso, os resultados são analisados no R com o pacote **bibliometrix**
 
 # Script em R 
 O Script em R está disponível em R: https://github.com/maycon-garcia-gif/Scienciometrics-/blob/main/R%20script 
+
+
+<img width="5250" height="2100" alt="AuthorsProductionOverTime-2025-12-03" src="https://github.com/user-attachments/assets/b17f8de2-fa3c-41f3-b864-a3b71f5438fc" />
+
+ 
