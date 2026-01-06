@@ -8,10 +8,30 @@ Repositório dedicado à cienciometria, com análises desenvolvidas em R utiliza
 É possível baixar os artigos de diferentes banco de dados como o Scopus e Web of science. 
 As buscas podem ser baixadas em arquivos do tipo .csv e .txt. 
 
-Após isso, os resultados são analisados no R com o pacote **bibliometrix** 
+Após download dos arquivos, os resultados são analisados no R com o pacote **bibliometrix** 
 
 # Script em R 
 O Script em R está disponível em R: https://github.com/maycon-garcia-gif/Scienciometrics-/blob/main/R%20script 
+
+# Análise de dados cienciométricos 
+
+**Países mais produtivos**
+O gráfico a seguir nos permite avaliar os países que mais contribuiram para o tópico em estudo, nesse caso, avaliei a publicação de artigos e documentos científicos publicados sobre um arbovírus negligenciado. 
+O país que mais publicou artigos sobre esse vírus foi o Brasil, em seguida, dos Estados Unidos. Especula-se que essa maior contribuição para a contribuição científica do Brasil, seja consequência do maior número de casos nessa região. 
+
+<img width="501" height="511" alt="Rplot01" src="https://github.com/user-attachments/assets/21361f8d-e68f-4cd3-83ee-fedb49fba856" />
+
+**Autores mais produtivos**
+
+Além dos países e regiões mais produtivas, é possível avaliar os autores que mais contribuiram com artigos e publicações científicas. Dos dados avaliados, foi observado uma média de 7.9 co-autores por artigo, com cerca de 550 autores entre os anos de 1946 e 2025. 
+<img width="501" height="511" alt="Rplot02" src="https://github.com/user-attachments/assets/a8a3d6ed-23ca-465b-b133-411ac96a7cba" />
+
+# Produção científica Anual 
+
+
+<img width="501" height="511" alt="Rplot03" src="https://github.com/user-attachments/assets/6dce5c26-d8e8-4393-b51f-421ea5fe49ef" />
+
+
 
 
 
