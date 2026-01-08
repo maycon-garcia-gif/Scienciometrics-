@@ -37,9 +37,12 @@ Além das métricas de produção dos países e autores, com o pacote bibliometr
 
 <img width="501" height="511" alt="Rplot03" src="https://github.com/user-attachments/assets/6dce5c26-d8e8-4393-b51f-421ea5fe49ef" />
 
+# Co-occurrence Network
+
+Um Co-occurrence Network (rede de coocorrência) é um gráfico que representa relações entre termos com base na frequência com que aparecem juntos em um mesmo contexto, geralmente no título, resumo (abstract) ou palavras-chave de artigos científicos. O gráfico a seguir demonstra uma rede de conexões entre o arbovírus negligenciado. As palavras mais frequentes estão relacionadas aos flavivírus, vírus transmitidos por mosquitos e sintomatologia causada pela infecção viral.  
 
 
+<img width="1984" height="1176" alt="Co_occurrenceNetwork-_2026-01-05161734 439987" src="https://github.com/user-attachments/assets/8bbf5b82-922e-4b1d-86d7-60e37a20a366" />
 
-
-
+Por fim, o pacote bibliometrix permite analisar uma variadade de métricas relacionadas a produção de artigos de forma bastante simples e rápida. Vale ressaltar, que as análises podem ser realizadas de qualquer tópico da literatura, desde que, a procura nas bases de dados seja feita da maneira correta e ética. 
  
