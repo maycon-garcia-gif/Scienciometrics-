@@ -44,5 +44,6 @@ Um Co-occurrence Network (rede de coocorrência) é um gráfico que representa r
 
 <img width="1984" height="1176" alt="Co_occurrenceNetwork-_2026-01-05161734 439987" src="https://github.com/user-attachments/assets/8bbf5b82-922e-4b1d-86d7-60e37a20a366" />
 
+# Conclusão
 Por fim, o pacote bibliometrix permite analisar uma variadade de métricas relacionadas a produção de artigos de forma bastante simples e rápida. Vale ressaltar, que as análises podem ser realizadas de qualquer tópico da literatura, desde que, a procura nas bases de dados seja feita da maneira correta e ética. 
  
